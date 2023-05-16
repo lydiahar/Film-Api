@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film-Api", "Film-Api\Film-Api.csproj", "{FC55BF7C-7EE6-418D-9147-975FE334DB62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film-Api.Business", "Film-Api.Business\Film-Api.Business.csproj", "{5E79316A-9B50-4BF3-8ABF-F3A0665CF4E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film-Api.Business", "Film-Api.Business\Film-Api.Business.csproj", "{5E79316A-9B50-4BF3-8ABF-F3A0665CF4E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film-Api.Model", "Film-Api.Model\Film-Api.Model.csproj", "{396C98F4-7599-4CC0-8435-D6967AD652A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film-Api.Model", "Film-Api.Model\Film-Api.Model.csproj", "{396C98F4-7599-4CC0-8435-D6967AD652A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Film-Api.Repository", "Film-Api.Repository\Film-Api.Repository.csproj", "{4FD03566-F3BD-4DA3-9E39-61290D91BAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film-Api.Repository", "Film-Api.Repository\Film-Api.Repository.csproj", "{4FD03566-F3BD-4DA3-9E39-61290D91BAD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmApi", "FilmApi\FilmApi.csproj", "{3E035B6B-8D4B-457B-900F-8B7B03758AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC55BF7C-7EE6-418D-9147-975FE334DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC55BF7C-7EE6-418D-9147-975FE334DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC55BF7C-7EE6-418D-9147-975FE334DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC55BF7C-7EE6-418D-9147-975FE334DB62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E79316A-9B50-4BF3-8ABF-F3A0665CF4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E79316A-9B50-4BF3-8ABF-F3A0665CF4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E79316A-9B50-4BF3-8ABF-F3A0665CF4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{4FD03566-F3BD-4DA3-9E39-61290D91BAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD03566-F3BD-4DA3-9E39-61290D91BAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD03566-F3BD-4DA3-9E39-61290D91BAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E035B6B-8D4B-457B-900F-8B7B03758AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E035B6B-8D4B-457B-900F-8B7B03758AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E035B6B-8D4B-457B-900F-8B7B03758AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E035B6B-8D4B-457B-900F-8B7B03758AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
